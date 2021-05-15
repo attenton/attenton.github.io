@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <title>Girtabx</title>
+    <meta property="description" content="girtabx's blog">
+    <style type="text/css">
+        body{
+            margin: 0;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+        body{
+            position: relative;
+        }
+        a {
+            outline: none;
+        }
+        .header {
+            padding: 20px 0;
+            position: relative;
+            background: #f5f5f5;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .nav {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 15px;
+            text-align: right;
+        }
+        .nav-header{
+            float: left;
+            margin-top: -11px;
+            display: block;
+            max-height: 40px;
+            width: auto;
+        }
+        .nav-header{
+            text-decoration: none;
+            color: #111;
+        }
+        .nav-links {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            list-style: none;
+        }
+        .nav-links li {
+            display: inline-block;
+            margin: 0 0 0 15px;
+        }
+        .nav-links li:first-child {
+            margin-left: 0;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #111;
+        }
+        .nav-links a:hover {
+            color: #000;
+        }
+        .content {
+            max-width: 700px;
+            margin: 40px auto 10px;
+            padding: 0 15px;
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .content img {
+            max-width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body>
+<!-- Main Content -->
+<header class="header">
+    <nav class="nav">
+        <a href="/" class="nav-header" style="font-size: 30px">
+            Girtabx
+        </a>
+        <ul class="nav-links">
+            <li class="link-text"><a href="/">Github</a></li>
+            <li class="link-text"><a href="/">Twitter</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="content main-container">
+    <!-- 置顶文章 -->
+
+<!-- 普通文章 -->
+
+    <style type="text/css">
+    .post-preview {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 1.3em;
+        text-align: center;
+        color: #111;
+    }
+    .post-item {
+        margin: 5px 0 15px;
+        padding: 0;
+    }
+    .post-item-date {
+        color: #ccc;
+        font-size: 14px;
+        padding: 5px 0;
+        margin-top: 5px;
+        display: block;
+    }
+    .post-item-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: bold;
+        color: #222;
+        padding: 5px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    @media (min-width: 600px) {
+        .post-preview {
+            text-align: left;
+        }
+        .post-item-date {
+            font-size: 19px;
+            text-align: right;
+            float: right;
+        }
+        .post-item-link {
+            text-overflow: ellipsis;
+            max-width: calc(100% - 120px);
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+</style>
+<div class="post-preview">
+    <article class="post-item">
+            <a href="/spaCy.html" class="post-item-link">spaCy学习</a>
+            <span class="post-item-date">2021-03-22</span>
+    </article>
+</div>
+
+
+
+
+</main>
+
+<script>
+    // 非本站网址，新开tab页签
+    (function () {
+        var stopBubble = function (e) {
+            e && e.stopPropagation && e.stopPropagation();
+        }
+        var links = document.querySelectorAll('a');
+        [].slice.call(links).forEach(function (item) {
+            if (item.href && item.href.indexOf(window.location.host) === -1) {
+                item.target = '_blank'
+            }
+            // 阻止冒泡，不触发彩蛋。
+            item.addEventListener('click', stopBubble, false);
+        });
+        var article = document.querySelector('article');
+        article && article.addEventListener('click', stopBubble, false)
+    })();
+</script>
+
+</body>
+
+</html>
